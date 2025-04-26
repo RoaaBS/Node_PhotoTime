@@ -2,7 +2,7 @@ import cors from "cors";
 import AuthRouter from "./modules/Auth/auth.router.js";
 import AuthAdmin from "./modules/Admin/admin.router.js";
 import AuthStudio from "./modules/Studio/studio.router.js"
-
+import AuthBooking from "./modules/Booking/Booking.router.js"
 const initApp = async (app, express) => {
   app.use(express.json());
   app.use(cors());
@@ -14,7 +14,7 @@ const initApp = async (app, express) => {
   app.use("/auth", AuthRouter);
   app.use("/Admin", AuthAdmin);
   app.use("/Studio", AuthStudio);
-
+  app.use("/Booking", AuthBooking);
   app.get("*", (req, res) => {
     return res.status(404).json({ message: "page not found ..." });
   });
