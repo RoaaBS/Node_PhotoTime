@@ -60,7 +60,7 @@ All routes are protected using JWT-based authentication.
 ## 📮 Project Delivery
 
 - 🔗 **GitHub Repo**: `https://github.com/RoaaBS/Node_PhotoTime.git`
-- 📬 **Postman Collection**: included in the repository as `PhotoTime.postman_collection.json`
+- 📬 **Postman Collection**: `https://documenter.getpostman.com/view/29414127/2sB2izFDuS`
 
 ---
 
